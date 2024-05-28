@@ -50,7 +50,7 @@ class Loader:
 
             y = y.astype("int32")
 
-            X = torch.tensor(data=X.values, dtype=torch.float32)
+            X = torch.tensor(data=X.values, dtype=torch.float)
             y = torch.tensor(data=y.values, dtype=torch.long)
 
             X = self.normalized_dataset(dataset=X)

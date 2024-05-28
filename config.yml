@@ -1,6 +1,7 @@
 path:
   RAW_PATH: ./data/raw/
   PROCESSED_PATH: ./data/processed/
+  FILES_PATH: ./research/files/
 
 
 data:

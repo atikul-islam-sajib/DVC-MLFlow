@@ -1,11 +1,11 @@
 import os
 import torch
+import argparse
 import pandas as pd
+from utils import dump, load, config
 from torch.utils.data import DataLoader
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
-
-from utils import dump, load
 
 
 class Loader:
@@ -13,6 +13,8 @@ class Loader:
         self.datframe = dataset
         self.batch_size = batch_size
         self.split_size = split_size
+
+        self.PROCESSED_PATH = config()["path"]["PROCESSED_PATH"]
 
     def normalized_dataset(self, dataset):
         if isinstance(dataset, torch.Tensor):
@@ -81,22 +83,27 @@ class Loader:
                 shuffle=True,
             )
 
-            os.makedirs(PROCESSED_PATH, exist_ok=True)
+            os.makedirs(self.PROCESSED_PATH, exist_ok=True)
             for filename, value in [
                 ("train_dataloader", train_dataloader),
                 ("test_dataloader", test_dataloader),
             ]:
                 dump(
                     value=value,
-                    filename=os.path.join(PROCESSED_PATH, f"{filename}.pkl"),
+                    filename=os.path.join(self.PROCESSED_PATH, f"{filename}.pkl"),
                 )
 
             print(
-                "The dataloader has been saved in the folder {}".format(PROCESSED_PATH)
+                "The dataloader has been saved in the folder {}".format(
+                    self.PROCESSED_PATH
+                )
             )
 
     @staticmethod
     def dataset_details():
+        PROCESSED_PATH = config()["path"]["PROCESSED_PATH"]
+        FILES_PATH = config()["path"]["FILES_PATH"]
+
         if os.path.exists(PROCESSED_PATH):
             train_dataloader = load(
                 filename=os.path.join(PROCESSED_PATH, "train_dataloader.pkl")
@@ -115,13 +122,36 @@ class Loader:
             },
             index=["Quantity"],
         ).T.to_csv(
-            os.path.join(PROCESSED_PATH, "dataset_details.csv"),
+            os.path.join(FILES_PATH, "dataset_details.csv"),
         )
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(
+        description="Data Loader for the Cancer".capitalize()
+    )
+    parser.add_argument(
+        "--dataset",
+        default=os.path.join(config()["path"]["RAW_PATH"], "breast-cancer.csv"),
+        help="Defin the dataset".capitalize(),
+    )
+    parser.add_argument(
+        "--split_size",
+        default=config()["data"]["split_size"],
+        help="Defin the split size".capitalize(),
+    )
+    parser.add_argument(
+        "--batch_size",
+        default=config()["data"]["batch_size"],
+        help="Defin the batch size".capitalize(),
+    )
+
+    args = parser.parse_args()
+
     loader = Loader(
-        dataset="../../data/raw/breast-cancer.csv", split_size=0.20, batch_size=64
+        dataset=args.dataset,
+        batch_size=args.batch_size,
+        split_size=args.split_size,
     )
 
     loader.create_dataloader()

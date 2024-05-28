@@ -1,3 +1,9 @@
 path:
   RAW_PATH: ./data/raw/
   PROCESSED_PATH: ./data/processed/
+
+
+data:
+  dataset: ./data/raw/breast-cancer.csv
+  batch_size: 64
+  split_size: 0.20

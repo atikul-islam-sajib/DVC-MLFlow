@@ -16,7 +16,7 @@ model:
   in_features: 30
 
 trainer:
-  epochs: 30
+  epochs: 10
   lr: 0.01
   beta1: 0.5
   beta2: 0.999

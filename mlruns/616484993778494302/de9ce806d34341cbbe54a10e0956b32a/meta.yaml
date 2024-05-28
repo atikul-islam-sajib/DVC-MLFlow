@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/shahmuhammadraditrahman/Desktop/DVC-MLFlow/mlruns/616484993778494302/de9ce806d34341cbbe54a10e0956b32a/artifacts
+end_time: 1716910498426
+entry_point_name: ''
+experiment_id: '616484993778494302'
+lifecycle_stage: active
+run_id: de9ce806d34341cbbe54a10e0956b32a
+run_name: abrasive-moose-935
+run_uuid: de9ce806d34341cbbe54a10e0956b32a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716910488268
+status: 3
+tags: []
+user_id: shahmuhammadraditrahman

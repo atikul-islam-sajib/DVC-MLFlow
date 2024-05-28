@@ -108,6 +108,12 @@ class TestModel:
 
         print(f"Classification Report: \n {classification}")
 
+        print(
+            "Model performace saved in the folder {}".format(
+                config()["path"]["OUTPUTS_PATH"]
+            )
+        )
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Test Model for Breast Cancer".title())

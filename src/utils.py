@@ -1,5 +1,4 @@
-import joblib
-
+import yaml
 import joblib
 
 
@@ -17,3 +16,8 @@ def load(filename=None):
 
     else:
         raise ValueError("The filename is required".capitalize())
+
+
+def config():
+    with open("./config.yml", "r") as file:
+        return yaml.safe_load(file)

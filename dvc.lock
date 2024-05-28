@@ -1,0 +1,54 @@
+schema: '2.0'
+stages:
+  train:
+    cmd: python src/cli.py --config ./config.yml --train
+    deps:
+    - path: ./config.yml
+      hash: md5
+      md5: f09f22a8e7f7da5d108b1fc97432ebef
+      size: 520
+    - path: ./data/
+      hash: md5
+      md5: fdebfe202a8d2b3cda4aa2f8df6b9d6d.dir
+      size: 46988224
+      nfiles: 6
+    - path: ./research/
+      hash: md5
+      md5: 9e843f79bf20c073d1d2ea1d122e11f9.dir
+      size: 128526
+      nfiles: 7
+    - path: src/cli.py
+      hash: md5
+      md5: bd645b8f8ff26927239481b93c2aece2
+      size: 4063
+    - path: src/dataloader.py
+      hash: md5
+      md5: 3d9122acdd3e7a740535b659906c5fb5
+      size: 5068
+    - path: src/helper.py
+      hash: md5
+      md5: 0f4986f291eadd6851f09c5c43eeb0c1
+      size: 1781
+    - path: src/model.py
+      hash: md5
+      md5: 9dc32a46a996dfd705f6300f95757484
+      size: 2016
+    - path: src/trainer.py
+      hash: md5
+      md5: 58bd9c5b0980eb460da45d5779308830
+      size: 10976
+    - path: src/utils.py
+      hash: md5
+      md5: 6c3a3d632390adb7afa6a76a9092486f
+      size: 535
+    outs:
+    - path: ./checkpoints/
+      hash: md5
+      md5: c253a4595a65aaf4fae678050f096416.dir
+      size: 21853310
+      nfiles: 305
+    - path: ./mlruns/
+      hash: md5
+      md5: 083249c129d73d496a9106cae91da7db.dir
+      size: 3967085
+      nfiles: 565

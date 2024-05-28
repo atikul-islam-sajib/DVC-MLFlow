@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/shahmuhammadraditrahman/Desktop/DVC-MLFlow/mlruns/823680644807941263/085fc6e17a744950bdd0fb6369dbc358/artifacts
+end_time: 1716904271920
+entry_point_name: ''
+experiment_id: '823680644807941263'
+lifecycle_stage: active
+run_id: 085fc6e17a744950bdd0fb6369dbc358
+run_name: bald-smelt-749
+run_uuid: 085fc6e17a744950bdd0fb6369dbc358
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716904271902
+status: 4
+tags: []
+user_id: shahmuhammadraditrahman

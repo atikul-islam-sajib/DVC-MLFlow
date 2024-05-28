@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/shahmuhammadraditrahman/Desktop/DVC-MLFlow/mlruns/823680644807941263/3b8dd91657d54905aca2cc1bc39bc23f/artifacts
+end_time: 1716908686320
+entry_point_name: ''
+experiment_id: '823680644807941263'
+lifecycle_stage: active
+run_id: 3b8dd91657d54905aca2cc1bc39bc23f
+run_name: rambunctious-koi-266
+run_uuid: 3b8dd91657d54905aca2cc1bc39bc23f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716908681003
+status: 3
+tags: []
+user_id: shahmuhammadraditrahman

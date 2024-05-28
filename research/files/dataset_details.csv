@@ -1,4 +1,0 @@
-,Quantity
-Train Data(Total),455
-Test Data(Total),114
-Data Shpe (Train),"torch.Size([64, 30])"

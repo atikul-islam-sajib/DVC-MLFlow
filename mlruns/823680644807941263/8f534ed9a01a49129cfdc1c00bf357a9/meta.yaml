@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/shahmuhammadraditrahman/Desktop/DVC-MLFlow/mlruns/823680644807941263/8f534ed9a01a49129cfdc1c00bf357a9/artifacts
+end_time: 1716909798112
+entry_point_name: ''
+experiment_id: '823680644807941263'
+lifecycle_stage: active
+run_id: 8f534ed9a01a49129cfdc1c00bf357a9
+run_name: intrigued-colt-68
+run_uuid: 8f534ed9a01a49129cfdc1c00bf357a9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716909795320
+status: 3
+tags: []
+user_id: shahmuhammadraditrahman

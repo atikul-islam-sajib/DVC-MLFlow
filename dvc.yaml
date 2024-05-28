@@ -1,0 +1,38 @@
+stages:
+  train:
+    cmd: python src/cli.py --config ./config.yml --train
+    deps:
+      - src/cli.py
+      - src/dataloader.py
+      - src/model.py
+      - src/helper.py
+      - src/trainer.py
+      - src/utils.py
+      - ./config.yml
+      - ./data/
+      - ./research/
+      
+    outs:
+      - ./checkpoints/:
+          persist: true
+      - ./mlruns/:
+          persist: true
+
+
+  test:
+    cmd: python src/cli.py --config ./config.yml --test
+
+    deps:
+      - src/cli.py
+      - src/dataloader.py
+      - src/model.py
+      - src/helper.py
+      - src/trainer.py
+      - src/utils.py
+      - ./config.yml
+      - ./data/
+      - ./checkpoints/
+
+    outs:
+      - ./outputs/:
+          persist: true

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/shahmuhammadraditrahman/Desktop/DVC-MLFlow/mlruns/823680644807941263/84547419860b4f478cd38f965bf174a5/artifacts
+end_time: 1716904461782
+entry_point_name: ''
+experiment_id: '823680644807941263'
+lifecycle_stage: active
+run_id: 84547419860b4f478cd38f965bf174a5
+run_name: sincere-croc-537
+run_uuid: 84547419860b4f478cd38f965bf174a5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716904461027
+status: 4
+tags: []
+user_id: shahmuhammadraditrahman

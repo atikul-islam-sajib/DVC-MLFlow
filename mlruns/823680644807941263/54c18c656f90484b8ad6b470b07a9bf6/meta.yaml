@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/shahmuhammadraditrahman/Desktop/DVC-MLFlow/mlruns/823680644807941263/54c18c656f90484b8ad6b470b07a9bf6/artifacts
+end_time: 1716909896173
+entry_point_name: ''
+experiment_id: '823680644807941263'
+lifecycle_stage: active
+run_id: 54c18c656f90484b8ad6b470b07a9bf6
+run_name: indecisive-rat-868
+run_uuid: 54c18c656f90484b8ad6b470b07a9bf6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716909893347
+status: 3
+tags: []
+user_id: shahmuhammadraditrahman

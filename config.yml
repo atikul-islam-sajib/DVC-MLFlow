@@ -10,13 +10,13 @@ path:
 data:
   dataset: ./data/raw/breast-cancer.csv
   batch_size: 64
-  split_size: 0.20
+  split_size: 0.30
 
 model:
   in_features: 30
 
 trainer:
-  epochs: 100
+  epochs: 30
   lr: 0.01
   beta1: 0.5
   beta2: 0.999
@@ -25,3 +25,4 @@ trainer:
   adam: True
   SGD: False
   display: true
+  lr_scheduler: False

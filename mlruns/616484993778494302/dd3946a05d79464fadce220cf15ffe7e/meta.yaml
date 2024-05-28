@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/shahmuhammadraditrahman/Desktop/DVC-MLFlow/mlruns/616484993778494302/dd3946a05d79464fadce220cf15ffe7e/artifacts
+end_time: 1716914585947
+entry_point_name: ''
+experiment_id: '616484993778494302'
+lifecycle_stage: active
+run_id: dd3946a05d79464fadce220cf15ffe7e
+run_name: entertaining-dog-654
+run_uuid: dd3946a05d79464fadce220cf15ffe7e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716914583465
+status: 3
+tags: []
+user_id: shahmuhammadraditrahman

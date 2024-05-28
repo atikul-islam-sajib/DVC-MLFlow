@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/shahmuhammadraditrahman/Desktop/DVC-MLFlow/mlruns/616484993778494302/93bbec0ab2b545e685f8c5d0dbb0685a/artifacts
+end_time: 1716914480354
+entry_point_name: ''
+experiment_id: '616484993778494302'
+lifecycle_stage: active
+run_id: 93bbec0ab2b545e685f8c5d0dbb0685a
+run_name: valuable-newt-295
+run_uuid: 93bbec0ab2b545e685f8c5d0dbb0685a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716914478207
+status: 3
+tags: []
+user_id: shahmuhammadraditrahman

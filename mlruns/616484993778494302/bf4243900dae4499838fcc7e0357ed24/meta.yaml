@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/shahmuhammadraditrahman/Desktop/DVC-MLFlow/mlruns/616484993778494302/bf4243900dae4499838fcc7e0357ed24/artifacts
+end_time: 1716914790740
+entry_point_name: ''
+experiment_id: '616484993778494302'
+lifecycle_stage: active
+run_id: bf4243900dae4499838fcc7e0357ed24
+run_name: invincible-hen-757
+run_uuid: bf4243900dae4499838fcc7e0357ed24
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716914788448
+status: 3
+tags: []
+user_id: shahmuhammadraditrahman

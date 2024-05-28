@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/shahmuhammadraditrahman/Desktop/DVC-MLFlow/mlruns/616484993778494302/660d40413f674c51af254b110807bdb7/artifacts
+end_time: 1716914518487
+entry_point_name: ''
+experiment_id: '616484993778494302'
+lifecycle_stage: active
+run_id: 660d40413f674c51af254b110807bdb7
+run_name: bustling-croc-863
+run_uuid: 660d40413f674c51af254b110807bdb7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716914516311
+status: 3
+tags: []
+user_id: shahmuhammadraditrahman

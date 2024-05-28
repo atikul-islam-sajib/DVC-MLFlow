@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/shahmuhammadraditrahman/Desktop/DVC-MLFlow/mlruns/616484993778494302/cd322dde047e40edb4d3e9fa84dd0878/artifacts
+end_time: 1716910596131
+entry_point_name: ''
+experiment_id: '616484993778494302'
+lifecycle_stage: active
+run_id: cd322dde047e40edb4d3e9fa84dd0878
+run_name: vaunted-mole-59
+run_uuid: cd322dde047e40edb4d3e9fa84dd0878
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716910586008
+status: 3
+tags: []
+user_id: shahmuhammadraditrahman

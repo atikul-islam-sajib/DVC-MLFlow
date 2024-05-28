@@ -5,17 +5,17 @@ stages:
     deps:
     - path: ./config.yml
       hash: md5
-      md5: ce90c82ef0088a1305c9523fc45b9e95
+      md5: 99adab17f6822a3670ebf34ad2b7a806
       size: 520
     - path: ./data/
       hash: md5
-      md5: d2b5e737aa5a94904e1c4533e6fc37bc.dir
+      md5: 74dc2f1c082a864d89088c4171e9b977.dir
       size: 46982076
       nfiles: 5
     - path: ./research/
       hash: md5
-      md5: 27fa8732b789a8a0349373337d7cc1f8.dir
-      size: 116686
+      md5: 7a1471e25e339947eea857f4e5e64ffb.dir
+      size: 117126
       nfiles: 7
     - path: src/cli.py
       hash: md5
@@ -46,16 +46,16 @@ stages:
     deps:
     - path: ./checkpoints/
       hash: md5
-      md5: 07fa1dd3ab5a049e65bba8f638312397.dir
+      md5: 0130f638c1764736eb464ae5c6adace8.dir
       size: 18198166
       nfiles: 252
     - path: ./config.yml
       hash: md5
-      md5: ce90c82ef0088a1305c9523fc45b9e95
+      md5: 99adab17f6822a3670ebf34ad2b7a806
       size: 520
     - path: ./data/
       hash: md5
-      md5: d2b5e737aa5a94904e1c4533e6fc37bc.dir
+      md5: 74dc2f1c082a864d89088c4171e9b977.dir
       size: 46982076
       nfiles: 5
     - path: src/cli.py

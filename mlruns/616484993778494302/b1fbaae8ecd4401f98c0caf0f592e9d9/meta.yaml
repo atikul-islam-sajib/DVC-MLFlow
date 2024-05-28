@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/shahmuhammadraditrahman/Desktop/DVC-MLFlow/mlruns/616484993778494302/b1fbaae8ecd4401f98c0caf0f592e9d9/artifacts
+end_time: 1716914636438
+entry_point_name: ''
+experiment_id: '616484993778494302'
+lifecycle_stage: active
+run_id: b1fbaae8ecd4401f98c0caf0f592e9d9
+run_name: colorful-newt-680
+run_uuid: b1fbaae8ecd4401f98c0caf0f592e9d9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716914634291
+status: 3
+tags: []
+user_id: shahmuhammadraditrahman

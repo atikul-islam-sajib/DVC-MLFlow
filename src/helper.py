@@ -6,7 +6,7 @@ from utils import load, config
 
 
 def load_dataloader():
-    processed_path = config()["path"]["processed_path"]
+    processed_path = config()["path"]["PROCESSED_PATH"]
 
     if os.path.exists(processed_path):
         train_dataloader = load(

@@ -12,11 +12,11 @@ stages:
       - ./data/
       - ./research/
       
-    outs:
-      - ./checkpoints/:
-          persist: true
-      - ./mlruns/:
-          persist: true
+    # outs:
+    #   - ./checkpoints/:
+    #       persist: true
+    #   - ./mlruns/:
+    #       persist: true
 
 
   test:
@@ -33,6 +33,6 @@ stages:
       - ./data/
       - ./checkpoints/
 
-    outs:
-      - ./outputs/:
-          persist: true
+    # outs:
+    #   - ./outputs/:
+    #       persist: true

@@ -8,3 +8,6 @@ data:
   dataset: ./data/raw/breast-cancer.csv
   batch_size: 64
   split_size: 0.20
+
+model:
+  in_features: 30

@@ -4,6 +4,7 @@ path:
   FILES_PATH: ./research/files/
   TRAIN_MODEL_PATH: ./checkpoints/train_models/
   BEST_MODEL_PATH: ./checkpoints/best_model/
+  OUTPUTS_PATH: ./outputs/
 
 
 data:

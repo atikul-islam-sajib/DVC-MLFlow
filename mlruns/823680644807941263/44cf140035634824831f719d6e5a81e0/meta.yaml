@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/shahmuhammadraditrahman/Desktop/DVC-MLFlow/mlruns/823680644807941263/44cf140035634824831f719d6e5a81e0/artifacts
+end_time: 1716904169113
+entry_point_name: ''
+experiment_id: '823680644807941263'
+lifecycle_stage: active
+run_id: 44cf140035634824831f719d6e5a81e0
+run_name: colorful-sloth-604
+run_uuid: 44cf140035634824831f719d6e5a81e0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716904169094
+status: 4
+tags: []
+user_id: shahmuhammadraditrahman

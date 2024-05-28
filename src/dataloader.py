@@ -48,7 +48,7 @@ class Loader:
             X = self.dataset.iloc[:, 1:]
             y = self.dataset.iloc[:, 0]
 
-            y = y.astype("int32")
+            y = y.astype(int)
 
             X = torch.tensor(data=X.values, dtype=torch.float)
             y = torch.tensor(data=y.values, dtype=torch.long)

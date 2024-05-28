@@ -2,6 +2,8 @@ path:
   RAW_PATH: ./data/raw/
   PROCESSED_PATH: ./data/processed/
   FILES_PATH: ./research/files/
+  TRAIN_MODEL_PATH: ./checkpoints/train_models/
+  BEST_MODEL_PATH: ./checkpoints/best_model/
 
 
 data:
@@ -11,3 +13,14 @@ data:
 
 model:
   in_features: 30
+
+trainer:
+  epochs: 100
+  lr: 0.01
+  beta1: 0.5
+  beta2: 0.999
+  step_size: 10   # Lr_scheduler
+  gamma: 0.1      # lr_scheduler
+  adam: True
+  SGD: False
+  display: true

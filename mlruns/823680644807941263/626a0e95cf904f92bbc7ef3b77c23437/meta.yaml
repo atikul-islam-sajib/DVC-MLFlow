@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/shahmuhammadraditrahman/Desktop/DVC-MLFlow/mlruns/823680644807941263/626a0e95cf904f92bbc7ef3b77c23437/artifacts
+end_time: 1716904121652
+entry_point_name: ''
+experiment_id: '823680644807941263'
+lifecycle_stage: active
+run_id: 626a0e95cf904f92bbc7ef3b77c23437
+run_name: judicious-wolf-523
+run_uuid: 626a0e95cf904f92bbc7ef3b77c23437
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716904121607
+status: 4
+tags: []
+user_id: shahmuhammadraditrahman

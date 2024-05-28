@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/shahmuhammadraditrahman/Desktop/DVC-MLFlow/mlruns/616484993778494302/62b4149111764c6fabd19bcc9e3234c5/artifacts
+end_time: 1716915067300
+entry_point_name: ''
+experiment_id: '616484993778494302'
+lifecycle_stage: active
+run_id: 62b4149111764c6fabd19bcc9e3234c5
+run_name: nimble-hare-486
+run_uuid: 62b4149111764c6fabd19bcc9e3234c5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716915061050
+status: 3
+tags: []
+user_id: shahmuhammadraditrahman

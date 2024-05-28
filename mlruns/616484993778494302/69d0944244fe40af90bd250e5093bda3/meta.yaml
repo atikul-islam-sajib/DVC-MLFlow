@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/shahmuhammadraditrahman/Desktop/DVC-MLFlow/mlruns/616484993778494302/69d0944244fe40af90bd250e5093bda3/artifacts
+end_time: 1716914959475
+entry_point_name: ''
+experiment_id: '616484993778494302'
+lifecycle_stage: active
+run_id: 69d0944244fe40af90bd250e5093bda3
+run_name: abrasive-moth-315
+run_uuid: 69d0944244fe40af90bd250e5093bda3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716914956801
+status: 3
+tags: []
+user_id: shahmuhammadraditrahman
